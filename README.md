@@ -9,9 +9,6 @@ Refresh the list of tours when no tours are left.
 Project Structure
 The project is divided into components:
 
-App: The main component that holds the state of the tours and the remove functionality.
-Tours: A component that maps through the list of tours and renders each one using the Card component.
-Card: A presentational component that shows individual tour details and has a button to remove that tour.
 # Tech Stack
 React (v17+)
 JavaScript (ES6+)
