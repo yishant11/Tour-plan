@@ -1,0 +1,111 @@
+/* write your css here */
+* {@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Playfair Display", serif;
+}
+ 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title{
+  font-size: 3rem;
+  margin: 6vh;
+  border:7px dashed rgb(1,17,160);
+  border-radius: 20px;
+  padding:1vh 5vw ;
+}
+
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width:400px;
+    height:max-content;
+    margin:1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: centre;
+    box-shadow: rgb(0,0,0,0.24) 0px 3px 8px;
+}
+
+.image{
+    width: 350px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.tour-info{
+    margin:20px 5px;
+}
+
+.tour-price{
+    color:rgb(244, 23, 27);
+    font-size: 1.3rem;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    color:rgb(96, 45, 45);
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: aliceblue;
+    margin-top: 15px;
+    padding: 10px 80px;
+    border-radius:10px;
+    cursor: pointer;
+    font-size: medium;
+    border:3px solid rosybrown;
+    font-weight: bolder;
+}
+
+.btn-red:hover{
+    background-color: blanchedalmond;
+    color:green;
+    transition: smooth ease 1s;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-white{
+    margin-top: 15px;
+    padding: 10px 80px;
+    color:blue;
+    border: 3px solid white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.btn-white:hover{
+    background-color: bisque;
+    color:rgb(212, 18, 212);
+}
